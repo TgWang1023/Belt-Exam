@@ -13,6 +13,8 @@
 		B442F0BD21540D2B002473DC /* Belt_Exam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B442F0BB21540D2B002473DC /* Belt_Exam.xcdatamodeld */; };
 		B442F0BF21540D2C002473DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B442F0BE21540D2C002473DC /* Assets.xcassets */; };
 		B442F0C221540D2C002473DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B442F0C021540D2C002473DC /* LaunchScreen.storyboard */; };
+		B442F0CA21541128002473DC /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442F0C921541128002473DC /* AddEditViewController.swift */; };
+		B442F0CC21541138002473DC /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442F0CB21541138002473DC /* DisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B442F0BE21540D2C002473DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B442F0C121540D2C002473DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B442F0C321540D2C002473DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B442F0C921541128002473DC /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		B442F0CB21541138002473DC /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				B442F0B421540D2B002473DC /* AppDelegate.swift */,
 				B442F0B621540D2B002473DC /* ViewController.swift */,
 				B442F0B821540D2B002473DC /* Main.storyboard */,
+				B442F0C921541128002473DC /* AddEditViewController.swift */,
+				B442F0CB21541138002473DC /* DisplayViewController.swift */,
 				B442F0BE21540D2C002473DC /* Assets.xcassets */,
 				B442F0C021540D2C002473DC /* LaunchScreen.storyboard */,
 				B442F0C321540D2C002473DC /* Info.plist */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B442F0CC21541138002473DC /* DisplayViewController.swift in Sources */,
+				B442F0CA21541128002473DC /* AddEditViewController.swift in Sources */,
 				B442F0B721540D2B002473DC /* ViewController.swift in Sources */,
 				B442F0B521540D2B002473DC /* AppDelegate.swift in Sources */,
 				B442F0BD21540D2B002473DC /* Belt_Exam.xcdatamodeld in Sources */,
